@@ -1,0 +1,41 @@
+
+
+body{
+    background-color: #74554b;
+   color: blanchedalmond;
+      
+}
+
+.hero-image-space{
+
+    background-image: url('../media/abstract-6013298_1280.png');
+    background-color: #74554b; 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+
+
+}
+
+.topBar {
+    background-color: rgb(116, 85, 75, .75);
+    
+}
+
+.logo-space img {
+    width: 180px;
+}
+
+.navBar-buttons ul{
+    list-style: none;
+}
+
+.navBar-buttons li {
+    display: inline;
+}
+beth-ellen-regular {
+    font-family: "Beth Ellen", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
