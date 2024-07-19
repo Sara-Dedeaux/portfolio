@@ -3,8 +3,10 @@
 body{
     background-color: #74554b;
    color: blanchedalmond;
+  box-sizing: border-box;
       
 }
+
 
 .hero-image-space{
 
@@ -15,11 +17,16 @@ body{
     background-repeat: no-repeat; 
     background-size: cover; 
 
-
 }
 
 .topBar {
-    background-color: rgb(116, 85, 75, .75);
+    background-color: rgb(231, 197, 160, .75);
+    
+    font-family: "Quattrocento", serif;
+    color: #642523;
+    font-weight: 600;
+    font-size: xx-large;
+
     
 }
 
@@ -29,13 +36,73 @@ body{
 
 .navBar-buttons ul{
     list-style: none;
+
 }
 
 .navBar-buttons li {
-    display: inline;
+    line-height: 50px;
 }
-beth-ellen-regular {
+
+.profile-picture-space {
+    background-color: #74554b;
+    padding-bottom: 30px;
+
+}
+
+.name-info-space {
+    background-color: rgb(231, 197, 160, .75);
+    border-radius: 5%;
+   
+}
+
+.name-space h1 {
     font-family: "Beth Ellen", cursive;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 45px;
 }
+
+
+
+.title-space h3{
+    font-family: "Quattrocento", serif;
+    color: #642523;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.aboutMe {
+   
+    background-color: #74554b;
+   color: #E7C5A0;
+
+
+}
+
+.header-space {
+    background-image: url(../media/newStrip.png);
+    background-color: rgb(231, 197, 160,.25);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    font-family: "Beth Ellen", cursive;
+    font-size: 37px;
+      padding-top: 40px;
+
+
+}
+
+.section-text-space {
+    color: #E7C5A0;
+    font-family: "Quattrocento", serif;
+    font-weight: 600;
+    font-size: x-large;
+
+}
+
+.aboutMe h2{
+    color: #2B1311;
+    font-size: xx-large;
+    background-color: rgb(231, 197, 160, .75);
+    border-radius: 5%;
+    padding-bottom: 10px;
+    
+}
+
