@@ -16,6 +16,8 @@ body{
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
+    position: sticky;
+    top: 0;
 
 }
 
@@ -69,10 +71,13 @@ body{
     font-size: x-large;
 }
 
-.aboutMe {
+.format-background {
    
-    background-color: #74554b;
+   background-color: #74554b;
    color: #E7C5A0;
+   padding-bottom: 1px;
+   padding-top: 5px;
+   border: solid, #2B1311, 2px;
 
 
 }
@@ -97,7 +102,7 @@ body{
 
 }
 
-.aboutMe h2{
+.format-header{
     color: #2B1311;
     font-size: xx-large;
     background-color: rgb(231, 197, 160, .75);
@@ -105,6 +110,8 @@ body{
     padding-bottom: 10px;
     
 }
+
+
 
 @media(min-width:768px) {
    
@@ -132,7 +139,7 @@ body{
         width: 260px;
         height: auto;
     }
-    
+
     .name-info-space {
         position: absolute;
         top: 309px;
