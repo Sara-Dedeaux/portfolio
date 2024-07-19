@@ -106,3 +106,37 @@ body{
     
 }
 
+@media(min-width:767px) {
+   
+    .navBar-space {
+        align-items: center;
+    }
+
+    .navBar-buttons li {
+        font-size: larger;
+        display: inline-block;
+        
+    }
+
+  
+
+    .logo-space img {
+        width: 265px;
+    }
+
+
+}
+
+@media(min-width:992px) {
+
+    .navBar-buttons li {
+        display: inline-block;
+        font-size: large;
+        padding-left: 10px;
+    }
+
+   
+}
+
+@media(min-width:1024)
+
