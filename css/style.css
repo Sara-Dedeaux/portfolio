@@ -106,7 +106,7 @@ body{
     
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
    
     .navBar-space {
         align-items: center;
@@ -124,6 +124,28 @@ body{
         width: 265px;
     }
 
+    .headShot-photo-space img {
+
+        position: absolute;
+        top: 266px;
+        right: 450px;
+        width: 260px;
+        height: auto;
+    }
+    
+    .name-info-space {
+        position: absolute;
+        top: 309px;
+        right: 56px;
+    }
+    
+    
+
+    .name-space {
+        width: fit-content;
+    }
+    
+
 
 }
 
@@ -138,5 +160,14 @@ body{
    
 }
 
-@media(min-width:1024)
+@media(min-width:1024px) {
+    .logo-space img {
+        width: 180px;
+    }
+
+    .navBar-buttons li {
+        font-size: x-large;
+        padding-left: 0px;
+    }
+}
 
